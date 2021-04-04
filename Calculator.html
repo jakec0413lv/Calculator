@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+      <div id = "calculator">
+          <div id = "display-area">
+              <p></p>
+          </div>
+          <div class = "button-row">
+              <button onclick = press7() class = "number-button">7</button>
+              <button onclick = press8() class = "number-button">8</button>
+              <button onclick = press9() class = "number-button">9</button>
+              <button onclick = divideFunction() class = "operator-button">%</button>
+          </div>
+          <div class = "button-row">
+            <button onclick = press4() class = "number-button">4</button>
+            <button onclick = press5() class = "number-button">5</button>
+            <button onclick = press6() class = "number-button">6</button>
+            <button onclick = multiplyFunction() class = "operator-button">X</button>
+          </div>
+          <div class = "button-row">
+            <button onclick = press1() class = "number-button">1</button>
+            <button onclick = press2() class = "number-button">2</button>
+            <button onclick = press3() class = "number-button">3</button>
+            <button onclick = minusFunction() class = "operator-button">-</button>
+          </div>
+          <div class = "button-row">
+            <button onclick = press0() class = "number-button" >0</button>
+            <button onclick = addDecimal() class = "number-button" >.</button>
+            <button onclick = equalsFunction() class = "operator-button">=</button>
+            <button onclick = plusFunction() class = "operator-button">+</button>
+          </div>
+          <div>
+              <button onclick = reset()>Clear</button>
+          </div>
+
+        </div>
+
+      </div>
+      <script src = './Calculator.js'></script>
+  </body>
